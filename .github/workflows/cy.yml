@@ -1,0 +1,11 @@
+name: End-to-end tests 🧪
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: windows-2022 # Alterado para rodar no Windows Server 2022
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Instalar dependências NPM e rodar os testes do Cypress
+      - name: Cypress run
+        uses: cypress-io/github-action@v2

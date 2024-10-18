@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".", // Define o diretório raiz como a base
+      "paths": {
+        "cypress/*": ["./node_modules/cypress/*"]
+      },
+      "types": ["cypress"]
+    },
+    "include": [
+      "cypress/**/*.js", // Inclui os arquivos de teste do Cypress
+      "**/*.js"
+    ]
+  }
+  
