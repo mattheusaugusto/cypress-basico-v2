@@ -24,7 +24,9 @@
   "license": "MIT",
   "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
   "devDependencies": {
-    "cypress": "^9.5.1",
-    "cypress-xpath": "^2.0.1"
+    "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3"
   }
 }
